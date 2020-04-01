@@ -1,0 +1,53 @@
+#body{
+    background-color: black;
+    height: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+li{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.navbar-brand{
+    margin-right: 1px;
+}
+#inkermark{
+    margin-left: -10px;
+    margin-right: 0px;
+    margin-right: 0px;
+}
+#botonor{
+    margin-left: 4px;
+}
+.container{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.col-12{
+    width: 100%;
+}
+.input{
+    padding: 0px; 
+}
+#img{
+    background-image: url(../img/gentecontenta.jpg);
+    height: 100%;
+}
+#back{
+    background-image: url(../img/gentecontenta.jpg);
+    padding-top: 228px;
+    height: 100%;
+    width: 100%;
+}
+#foot{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+input{
+    text-align: center;
+}

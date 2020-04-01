@@ -1,0 +1,110 @@
+/* Diseño General */
+html,
+body {
+  height: 100%;
+  background-color:#3e3e3e;
+  /*min-width: 800px;*/
+  width: 100%;
+}
+body {
+  color: #fff;
+}
+
+.general{
+    margin-top: 100px;
+}
+
+a {
+  color: #F5924E;
+}
+
+a:hover {
+  text-decoration: none; 
+  color: #3e3e3e; 
+}
+
+@font-face {
+  font-family: 'Friz Quadrata Regular OS';
+  src: url("fonts/friz-quadrata-regular.woff") format("woff")
+} 
+
+.fontReg {
+  font-family:"Friz Quadrata Regular OS";
+}
+
+@font-face {
+  font-family: 'Friz Quadrata Bold OS';
+  src: url("fonts/friz-quadrata-bold.woff") format("woff")
+} 
+
+.fontBold {
+  font-family: "Friz Quadrata Bold OS"
+}
+
+/* NAVBAR*/
+
+#menu li {
+  display: inline;
+  padding: 10px;
+
+}
+
+.logo {
+    height: 80px;
+    
+}
+
+.icon {
+  height: 35%;
+  width: 35%;
+  margin-top: 150px;
+}
+
+/*CUERPO*/
+
+
+.paternL {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 89%;
+}
+
+.paternR {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  height: 89%;
+}
+
+.form-group {
+  margin-top: auto;
+  margin-left: auto;
+	margin-right: auto;
+  width: 15em;
+  
+  
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+
+.table {
+  border-collapse: separate;
+}
+
+
+.table, th {
+  background-color: #3D7FAD;
+}
+
+.thead, tr {
+  background-color: #9D875A;
+
+}
+
+.row {
+  margin-left: 350px;
+}
