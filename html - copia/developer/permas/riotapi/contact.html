@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Javascript -->
+    <!--<script type="text/javascript" src="script.js"></script> -->
+    <script type="text/javascript" src="js/status.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+    <title>Contáctanos</title>
+</head>
+
+
+<body>
+
+    <nav class="navbar fixed-top" style="background-color: #3D7FAD;">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="http://www.leagueoflegends.com" title="Accede a la web oficial de League Of Legends">
+                    <img class="logo" src="img/logo.png" height="80px" />
+            </div>
+            <ul id="menu">
+                <li><a class="fontBold" style="font-size: 22px" href="index.html">Home</a></li>
+                <li><a class="fontBold" style="font-size: 22px" href="contact.html">Contáctanos</a></li>
+                <li><a class="fontBold" style="font-size: 22px" href="us.html">Quienes Somos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- contenedor Bootstrap -->
+    <div class="paternL hidden-sm-down"><img src="img/patronLat.png" width="auto" height="auto"></div>
+    <div class="paternR hidden-sm-down"><img src="img/patronLat.png" width="auto" height="auto"></div>
+
+    <div class="container my-5 text-center">
+
+        <img class="icon" src="img/icon.png" height="100px" />
+
+        <div class="container">
+            <form class="container" id="needs-validation" novalidate>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <label for="validationCustom01">Invocador</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="Introduce tu ID"
+                            value="" required>
+                        <div class="invalid-feedback">
+                            Ingresa tu nombre de invocador
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationCustom02">Region</label>
+                        <select class="form-control" id="validationCustom02">
+                            <option>RU</option>
+                            <option>KR</option>
+                            <option>BR1</option>
+                            <option>OC1</option>
+                            <option>JP1</option>
+                            <option>NA1</option>
+                            <option>EUN1</option>
+                            <option>EUW1</option>
+                            <option>TR1</option>
+                            <option>LA1</option>
+                            <option>LA2</option>
+                        </select>
+
+                        <div class="invalid-feedback">
+                            Ingresa datos
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom03">¿En qué podemos ayudarte?</label>
+                        <textarea type="text" class="form-control" id="validationCustom03"
+                            placeholder="Introduce aquí tu mensaje" value="" required></textarea>
+                        <div class="invalid-feedback">
+                            No puedes enviar un mensaje en blanco
+                        </div>
+                    </div>
+
+
+                </div>
+                <button class="btn btn-primary" type="submit" data-toggle="modal" data-target="#exampleModal">Enviar</button>
+            </form>
+        </div>
+       
+        <script>
+            (function () {
+                'use strict';
+
+                window.addEventListener('load', function () {
+                    var form = document.getElementById('needs-validation');
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        
+                        form.classList.add('was-validated');
+                    }, false);
+                    
+                }, false);
+                if (from.checkValidity() == true) {
+                            $('#modal').modal();
+                            return '#modal';
+                }
+            })();
+
+         
+        </script>
+
+   <!-- Modal -->
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel" style="color:black">¡Fantástico!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body" style="color:black">
+            <p>Tu mensaje ha sido enviado con éxito. </br>
+                Pronto nos pondremos en contacto contigo</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
