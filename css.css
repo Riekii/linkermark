@@ -1,0 +1,117 @@
+/* TABLA PRINCIPAL */
+th{
+    text-align: center !important;
+    background-color: blue;
+}
+td{
+    text-align: center !important;
+    background-color: black;
+    color: white;
+    min-width: 200px;
+}
+table{
+    overflow: auto;
+    margin-top: 336px;
+}
+
+select{
+    width: 100%;
+    height: 37px;
+
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* BOTÓN BUSCAR */
+.search{
+    position: fixed;
+    display: block;
+    width: 100%;
+    background-color: #002856;
+    height: 336px;
+    top: 0;
+}
+#searchu{
+    display: block;
+    margin: 0 auto;
+}
+#buscar{
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #0057bb;
+}
+
+/* input.form-control.form-control-sn{
+    display: inline;
+    width: auto;
+} */
+.row{
+    width: 100%;
+}
+.form-control{
+    width: 100%;
+}
+#registrarse{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#formregistro{
+    background-color: antiquewhite;
+    padding-top: 10px;
+    margin-top: 26px;
+}
+
+.lupa{
+    display: none;
+}
+
+.col-lg-2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 991px){
+    .col-lg-2{
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+}
+
+#registrarse{
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.corto{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+h1{
+    line-height: 1em;
+    color: #e6e7e7;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: 416px;
+}
+
+.p-comunicacion{
+    margin: 0;
+    background-color: #ffffff;
+}
+#form-comunicacion-n, .form-comunicacion-s{
+    margin: 0;
+    padding: 0;
+}
+
+.form-radio{
+    text-align: center;
+    
+}
